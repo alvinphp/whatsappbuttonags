@@ -12,7 +12,7 @@
 </div>
 
 <p>whatsappbuttonags
- is a joomla plugin that adds a customizable WhatsApp message button to the webpage. Clicking on the floating WhatsApp button will display a chat popup that enables your users to send a pre-filled message to a specific WhatsApp user</p>
+ is a joomla modukle that adds a customizable WhatsApp message button to the webpage. Clicking on the floating WhatsApp button will display a chat popup that enables your users to send a pre-filled message to a specific WhatsApp user</p>
 
 <h3>Installation and use</h3>
 <ul>
@@ -24,13 +24,13 @@
 </ul>
 
 <ul>
-<li>Configure plugin.</li>
+<li>Configure module.</li>
 </ul>
 
 
 <h3>Compatibilty </h3>
 
-<p>The plugin is compatible with joomla 3-4-5.</p>
+<p>The plugin is compatible with joomla 5-6.</p>
 
 <h3> Change Log</h3>
 
@@ -41,10 +41,16 @@
 </ul>
 <h4>Version [1.0.1] -2024-08-25 </h4>
 <ul>
-<li><b>[Added]</b>Compatibility with joomla 5
+<li><b>[Added]</b>Compatibility with joomla 5-6
 </li>
 </ul>
+<h4>Version [1.0.2] -2024-08-25 </h4>
+<ul>
+<li><b>[Added]</b>The code structure was changed and the code was modified to work with the new versions of Joomla.
+</li>
+</ul>
+
 <h3>License and Copyright</h3>
 
-<p>This plugin is a open software and has the GNU LESSER GENERAL PUBLIC license. Copyright (C) 2023 Alvin Gil Saldaña All rights reserved.</p>
+<p>This module is a open software and has the GNU LESSER GENERAL PUBLIC license. Copyright (C) 2023 Alvin Gil Saldaña All rights reserved.</p>
 
