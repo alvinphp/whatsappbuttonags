@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="6.0" client="site" method="upgrade">
+    <name>MOD_WHATSAPPBUTTONAGS</name>
+    <creationDate>Oct 2025</creationDate>
+    <author>Alvin Gil Saldaña</author>
+    <authorEmail>alvin_gil@gotmail.com</authorEmail>
+    <authorUrl>https://github.com/alvinphp</authorUrl>
+    <copyright>Copyright © 2026 - All rights reserved.</copyright>
+    <license>GNU General Public License v2.0</license>
+    <version>1.0.2</version>
+    <description>WhatsApp Button Module</description>
+
+    <files>
+        <filename module="mod_whatsappbuttonags">mod_whatsappbuttonags.php</filename>
+        <filename>mod_whatsappbuttonags.xml</filename>
+        <folder>tmpl</folder>
+    </files>
+
+    <config>
+        <!-- Configuración de parámetros del módulo -->
+        <fields name="params">
+
+            <!-- Opciones principales del módulo -->
+            <fieldset name="basic" label="Configuración básica">
+
+                <field
+                    name="info_general"
+                    type="note"
+                    label="note"
+                    description="This module needs to be enabled at DEBUG module position."
+                />
+                
+
+                <field
+                    name="phone"
+                    type="text"
+                    label="WhatsApp number"
+                    description="Ingresa el número de WhatsApp (solo números)" 
+                />
+
+                <field
+                    name="message"
+                    type="text"
+                    label="Default message"
+                    default="Welcome To jQueryScript.Net"
+                    description="Mensaje que se enviará por WhatsApp" 
+                />
+
+                <field
+                    name="side"
+                    type="list"
+                    label="Button position"
+                    default="right"
+                    description="Selecciona en qué lado se mostrará el botón">
+                    <option value="left">Left</option>
+                    <option value="right">Right</option>
+                </field>
+
+                <field
+                    name="showpop"
+                    type="list"
+                    label="Enable Showpopup"
+                    default="1"
+                    description="Selecciona habilita o deshabilita">
+                    <option value="1">true</option>
+                    <option value="0">false</option>
+                </field>
+
+                <field
+                    name="Header_color"
+                    type="color"
+                    label="Header Color"
+                    default="#128C7E"
+                    description="Selecciona el color del encabezado de WhatsApp" 
+                />
+
+                <field
+                    name="message_placeholder"
+                    type="text"
+                    label="Placeholder message"
+                    default="Your message to send!"
+                    description="Mensaje que se mostrara con referencia" 
+                />
+
+                <field
+                    name="titulo_encabezado"
+                    type="text"
+                    label="Header message"
+                    default="jQuery Floating WhatsApp"
+                    description="Mensaje que se mostrara en el encabezado" 
+                />
+
+            </fieldset>
+
+        </fields>
+    </config>
+</extension>
