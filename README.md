@@ -15,6 +15,7 @@
  is a joomla module that adds a customizable WhatsApp message button to the webpage. Clicking on the floating WhatsApp button will display a chat popup that enables your users to send a pre-filled message to a specific WhatsApp user</p>
 
 <h3>Installation and use</h3>
+> **Nota:** Esto es un aviso importante para los lectores.
 <ul>
 <li>Install the plugin using Joomla! Extension Manager.</li>
 </ul>
