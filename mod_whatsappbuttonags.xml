@@ -14,6 +14,9 @@
         <filename module="mod_whatsappbuttonags">mod_whatsappbuttonags.php</filename>
         <filename>mod_whatsappbuttonags.xml</filename>
         <folder>tmpl</folder>
+        <folder>assets</folder>
+        <folder>language</folder>
+
     </files>
 
     <config>
