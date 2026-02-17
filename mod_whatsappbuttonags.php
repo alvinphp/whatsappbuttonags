@@ -19,6 +19,7 @@ $doc = Factory::getApplication()->getDocument();
 $baseUrl = Uri::base() . 'modules/mod_whatsappbuttonags/assets/';
 
 $doc->addStyleSheet($baseUrl . 'css/floating-wpp.min.css');
+$doc->addStyleSheet($baseUrl . 'css/custom.css');
 $doc->addScript($baseUrl . 'js/floating-wpp.min.js');
 
 // Cargar la vista (tmpl/default.php)

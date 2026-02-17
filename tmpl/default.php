@@ -24,21 +24,6 @@ $msg_header   = $params->get('titulo_encabezado', 'jQuery Floating WhatsApp');
 
 ?>
 
-<style>
- .floating-wpp {
-  position: fixed;
-  bottom: 20px;
-  z-index: 9999;
-}
-
-.floating-wpp .floating-wpp-message {
- color: black;
-}
-
-
-</style>
-
-
 <div class="floating-wpp"></div>
 
 <!-- libreria jquery -->
