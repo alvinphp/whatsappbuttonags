@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="6.0" client="site" method="upgrade">
     <name>MOD_WHATSAPPBUTTONAGS</name>
-    <position>debug</position>
     <creationDate>Oct 2025</creationDate>
     <author>Alvin Gil Saldaña</author>
     <authorEmail>alvin_gil@gotmail.com</authorEmail>
