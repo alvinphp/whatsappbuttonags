@@ -54,6 +54,11 @@
 <li><b>[Added]</b>The code structure was changed and the code was modified to work with the new versions of Joomla.
 </li>
 </ul>
+<h4>Version [1.0.3] -2026-03-01 </h4>
+<ul>
+<li><b>[Added]</b>Code modified to support multiple versions.
+</li>
+</ul>
 
 <h3>License and Copyright</h3>
 
