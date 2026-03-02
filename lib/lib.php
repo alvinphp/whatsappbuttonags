@@ -27,7 +27,7 @@ class LoadScript
                 $wa->useScript('jquery');
             }
         }
-        else
-            echo "error de compatibilidad";
+        
+        
     }
 }

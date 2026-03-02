@@ -11,6 +11,7 @@ use Joomla\CMS\Factory;
 use Joomla\CMS\Helper\ModuleHelper;
 use Joomla\CMS\Uri\Uri;
 use Joomla\CMS\Version;
+use Joomla\CMS\HTML\HTMLHelper;
 
 // clase que contiene funciones para validar las versiones 
 
@@ -32,8 +33,8 @@ class WhatsAppButtonModule
 
     // Registrar y cargar tus assets (CSS y JS)
 		$baseUrl = Uri::base() . 'modules/mod_whatsappbuttonags/assets/';
-
-		$doc->addStyleSheet($baseUrl . 'css/floating-wpp.min.css');
+		HTMLHelper::_('jquery.framework');
+        $doc->addStyleSheet($baseUrl . 'css/floating-wpp.min.css');
 		$doc->addStyleSheet($baseUrl . 'css/custom.css');
 		$doc->addScript($baseUrl . 'js/floating-wpp.min.js');
 	}
