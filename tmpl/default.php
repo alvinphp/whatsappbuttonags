@@ -7,11 +7,9 @@
  */
 
 defined('_JEXEC') or die;
-use Joomla\CMS\Factory;
-
-// Cargar jQuery
-$wa = Factory::getApplication()->getDocument()->getWebAssetManager();
-$wa->useScript('jquery');
+// llamando clase
+require_once dirname(__DIR__) . '/lib/lib.php';
+LoadScript::loadJquery();
 
 // Obtener parámetros
 $phone        = $params->get('phone', '');
