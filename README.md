@@ -59,6 +59,12 @@
 <li><b>[Added]</b>Code modified to support multiple versions.
 </li>
 </ul>
+<h4>Version [1.0.4] -2026-03-03 </h4>
+<ul>
+<li><b>[Added]</b>Updated the extension to fix bugs.
+</li>
+</ul>
+
 
 <h3>License and Copyright</h3>
 
