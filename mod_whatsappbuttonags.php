@@ -8,7 +8,7 @@
 
 defined('_JEXEC') or die;
 use Joomla\CMS\Helper\ModuleHelper;
-
+// cargando la clase helper.php
 require_once __DIR__ . '/helper.php';
 WhatsAppButtonModule::loadassets();
 

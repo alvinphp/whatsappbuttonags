@@ -17,12 +17,13 @@ use Joomla\CMS\HTML\HTMLHelper;
 
 class WhatsAppButtonModule
 {
+	// comprueba si la version el 4 o superior 
 	public static function isCompatible($min = '4.0')
 	{
 		$version = new Version();
 		return version_compare($version->getShortVersion(), $min, '>=');
 	}
-
+    // si la version en inferior se detiene
 	public static function loadassets()
 	{
 		if (!self::isCompatible('4.0')) {
@@ -31,12 +32,15 @@ class WhatsAppButtonModule
 
 		$doc = Factory::getApplication()->getDocument();
 
-    // Registrar y cargar tus assets (CSS y JS)
+        // Registrar y cargar tus assets (CSS y JS)
 		$baseUrl = Uri::base() . 'modules/mod_whatsappbuttonags/assets/';
-		HTMLHelper::_('jquery.framework');
-        $doc->addStyleSheet($baseUrl . 'css/floating-wpp.min.css');
-		$doc->addStyleSheet($baseUrl . 'css/custom.css');
-		$doc->addScript($baseUrl . 'js/floating-wpp.min.js');
+		// registrando las hojas estilo
+		$wa = $doc->getWebAssetManager();
+		$wa->registerAndUseStyle('mod_whatsappbuttonags.floating-wpp',$baseUrl.
+	    'css/floating-wpp.min.css');
+	    $wa->registerAndUseScript('mod_whatsappbuttonags.floating-wpp',$baseUrl.
+	    'js/floating-wpp.min.js',['jquery'],[],[]);
+
 	}
 
 }

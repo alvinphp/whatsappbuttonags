@@ -42,15 +42,13 @@
                     label="WhatsApp number"
                     description="Ingresa el número de WhatsApp (solo números)" 
                 />
-
                 <field
-                    name="message"
+                    name="message_placeholder"
                     type="text"
-                    label="Default message"
-                    default="Welcome To jQueryScript.Net"
-                    description="Mensaje que se enviará por WhatsApp" 
+                    label="Placeholder message"
+                    default="Your message to send!"
+                    description="Mensaje que se mostrara con referencia" 
                 />
-
                 <field
                     name="side"
                     type="list"
@@ -60,40 +58,6 @@
                     <option value="left">Left</option>
                     <option value="right">Right</option>
                 </field>
-
-                <field
-                    name="showpop"
-                    type="list"
-                    label="Enable Showpopup"
-                    default="1"
-                    description="Selecciona habilita o deshabilita">
-                    <option value="1">true</option>
-                    <option value="0">false</option>
-                </field>
-
-                <field
-                    name="Header_color"
-                    type="color"
-                    label="Header Color"
-                    default="#128C7E"
-                    description="Selecciona el color del encabezado de WhatsApp" 
-                />
-
-                <field
-                    name="message_placeholder"
-                    type="text"
-                    label="Placeholder message"
-                    default="Your message to send!"
-                    description="Mensaje que se mostrara con referencia" 
-                />
-
-                <field
-                    name="titulo_encabezado"
-                    type="text"
-                    label="Header message"
-                    default="jQuery Floating WhatsApp"
-                    description="Mensaje que se mostrara en el encabezado" 
-                />
 
             </fieldset>
 
