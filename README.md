@@ -70,6 +70,11 @@
 <li><b>[Added]</b>Obsolete class change.
 </li>
 </ul>
+<h4>Version [1.0.6] -2026-08-14 </h4>
+<ul>
+<li><b>[Added]</b>Bug fixes.
+</li>
+</ul>
 
 
 <h3>License and Copyright</h3>
