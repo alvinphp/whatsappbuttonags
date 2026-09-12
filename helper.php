@@ -36,10 +36,11 @@ class WhatsAppButtonModule
 		$baseUrl = Uri::base() . 'modules/mod_whatsappbuttonags/assets/';
 		// registrando las hojas estilo
 		$wa = $doc->getWebAssetManager();
+		$wa->useScript('jquery');
 		$wa->registerAndUseStyle('mod_whatsappbuttonags.floating-wpp',$baseUrl.
 	    'css/floating-wpp.min.css');
 	    $wa->registerAndUseScript('mod_whatsappbuttonags.floating-wpp',$baseUrl.
-	    'js/floating-wpp.min.js',['jquery'],[],[]);
+	    'js/floating-wpp.min.js',['jquery']);
 
 	}
 
