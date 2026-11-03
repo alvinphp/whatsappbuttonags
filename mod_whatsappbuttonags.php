@@ -2,7 +2,7 @@
 /**
  * @package     https://github.com/alvinphp
  * @subpackage  mod_whatsappbuttonags
- * @author      Alvin Gil
+ * @author      Alvin Gil.
  * @license     GNU General Public License v2 or later
  */
 
